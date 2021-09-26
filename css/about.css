@@ -1,0 +1,84 @@
+@media only screen and (max-width:480px) {
+    
+    .main-container {
+        background-color: #6c757d;
+    }
+    
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        min-height: 50vh;
+        background-color: #6c757d;
+        margin: -5px;
+    }
+
+    .profile-container {
+        box-sizing: border-box;
+        width: 80%;
+    /*    border: 1px solid black;*/
+        border-radius: 10px;
+        background-color: #212529;
+        margin: 7vw auto;
+        text-align: justify;
+        padding: 5vw;
+    }
+
+    .profile-pic{
+        display: block;
+        margin: 1px auto 15px;
+        width: 50%;
+        border: 3px solid #a7b3be;
+        border-radius: 50%;
+    }
+    
+    .profile-text{
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.1px;
+        color: #fff;
+        text-align: justify;
+        padding: 2px 2px 10px;
+    }
+    
+    #prof-button{
+        display: block;
+        max-width: 70%;
+        margin: 0px auto;
+        text-align: center;
+        vertical-align: middle;
+        background: #0d6efd;
+        padding: 5px;
+        line-height: 40px;
+        border-radius: 25px;
+        color: #fff;
+        box-shadow: 1px 2px 1px 2px rgb(0 0 0 / 80%);
+        font-size: 20px;
+    }
+
+/*    SUBSCRIPTION BOX */
+    
+    #subscription-box {
+/*        border: 1px solid red;*/
+        text-align: center;
+        vertical-align: middle;
+        line-height: 50px;
+        background-color: #212529;
+        border-radius: 15px;
+        margin: 3px auto;
+    }
+    
+    #subscribe-link {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .material-icons {
+        vertical-align: middle;
+    }
+    
+    .material-icons.md-24 {
+        font-size: 26px;
+    }
+    
+}
