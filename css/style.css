@@ -8,3 +8,38 @@
     background-color: #aaa;
     color: #222;
 }
+
+#social-handles-list {
+        /*        border: 1px solid red;*/
+        padding-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    .social-list-items {
+        /*        border: 1px solid red;*/
+        line-height: 40px;
+        flex: 1.5;
+        text-align: center;
+    }
+
+    .social-list-items:first-child {
+        flex: 2;
+        text-align: end;
+    }
+
+    .social-list-items:nth-child(3) {
+        flex: 0.5;
+    }
+
+    .social-list-items:last-child {
+        flex: 2;
+        text-align: start;
+    }
+
+    .social-handle-links {
+        color: #fff;
+        font-size: 24px;
+    }
