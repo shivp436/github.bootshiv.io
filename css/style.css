@@ -1,0 +1,10 @@
+#navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+.card-footer {
+    background-color: #aaa;
+    color: #222;
+}
