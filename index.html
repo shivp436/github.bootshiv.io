@@ -9,6 +9,8 @@
 
     <!--   BOOTSTRAP ICONS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <!--    FONT AWESOME ICONS-->
@@ -21,6 +23,9 @@
 </head>
 
 <body>
+
+    <!--   NAVBAR -->
+
     <nav id="navbar" class="navbar navbar-expand navbar-dark bg-dark">
         <div class="container row-md">
             <a href="#" class="navbar-brand d-none d-lg-block col-md fs-3">The Infinity Writings</a>
@@ -41,13 +46,52 @@
         </div>
     </nav>
 
+    <!--    NEWSLETTER BOX-->
+
+    <section class="bg-black text-light pt-5 p-3 text-center text-md-start">
+        <div class="container">
+            <div class="row g-4 bg-dark rounded">
+                <div class="col-md-8 col-lg-6 mx-auto">
+                    <h2>Want these <span class="text-warning">content snippets</span> sent straight <span class="text-warning">into your inbox</span>&nbsp;?</h2>
+                </div>
+                <div class="col-md-4 text-center mb-2
+                       mb-md-0 mx-auto">
+                    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#subscriptionModal">
+                        Join Our Mailing List
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    SUBSCRIPTION MODAL-->
+
+    <div class="modal fade" id="subscriptionModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark text-light text-center">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Subscribe to The Infinity Writngs</h5>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://0e7l0cv0oil.typeform.com/to/D7IBSl4c" frameborder="0px"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--    BLOG CARDS-->
 
     <section class="p-2 pt-4 pb-4 bg-black">
         <div class="container">
             <div class="row text-center g-4">
 
-                <div class="col-xs col-md-6 col-xl-4 mx-auto">
+
+                <!--               CARD 5-->
+
+                <div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
                     <div class="card rounded-3 border-0">
                         <h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">Rural Ain't That Backward</h2>
                         <img src="img/blog-5-img.jpg" alt="" class="card-img img-fluid rounded-0">
@@ -67,7 +111,7 @@
                                 <span class="h6 align-middle">3 min read</span>
                             </div>
 
-                            <div style="flex: 1" class="text-black">
+                            <div style="flex: 1" class="text-black text-end">
                                 <i class="h3 bi bi-share-fill" onclick="copyLink5()"></i>
                             </div>
                         </div>
@@ -75,7 +119,9 @@
                     </div>
                 </div>
 
-                <div class="col-xs col-md-6 col-xl-4 mx-auto">
+                <!--                CARD 4-->
+
+                <div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
                     <div class="card rounded-3 border-0">
                         <h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">Why You Should Watch YouTube Videos In Full Screen</h2>
                         <img src="img/blog-4-img.jpg" alt="" class="card-img img-fluid rounded-0">
@@ -95,7 +141,7 @@
                                 <span class="h6 align-middle">2 min read</span>
                             </div>
 
-                            <div style="flex: 1" class="text-black">
+                            <div style="flex: 1" class="text-black text-end">
                                 <i class="h3 bi bi-share-fill" onclick="copyLink4()"></i>
                             </div>
                         </div>
@@ -103,7 +149,10 @@
                     </div>
                 </div>
 
-                <div class="col-xs col-md-6 col-xl-4 mx-auto">
+
+                <!--               CARD 3 -->
+
+                <div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
                     <div class="card rounded-3 border-0">
                         <h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">To-Do Lists: The Paradoxical Productivity Tool</h2>
                         <img src="img/blog-3-img.jpg" alt="" class="card-img img-fluid rounded-0">
@@ -131,7 +180,10 @@
                     </div>
                 </div>
 
-                <div class="col-xs col-md-6 col-xl-4 mx-auto">
+
+                <!--                CARD 2-->
+
+                <div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
                     <div class="card rounded-3 border-0">
                         <h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">6 Things You Must Learn By 20</h2>
                         <img src="img/blog-2-img.jpg" alt="" class="card-img img-fluid rounded-0">
@@ -159,7 +211,10 @@
                     </div>
                 </div>
 
-                <div class="col-xs col-md-6 col-xl-4 mx-auto">
+
+                <!--               CARD 1 -->
+
+                <div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
                     <div class="card rounded-3 border-0">
                         <h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">The 5 Best Podcasts Of 2020</h2>
                         <img src="img/blog-1-img.jpg" alt="" class="card-img img-fluid rounded-0">
@@ -234,9 +289,9 @@
             </div>
 
             <div class="col-md text-center text-light pt-md-2 lead fw-normal">
-                   
-                    <span class="align-middle text-end">&copy; Shivanand P 2021</span>
-                    
+
+                <span class="align-middle text-end">&copy; Shivanand P 2021</span>
+
             </div>
 
         </div>
