@@ -82,6 +82,21 @@
         </div>
     </div>
 
+    <!--    LINK COPIED SUCCESFULLY-->
+
+    <div class="modal fade" id="linkCopiedModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-body">
+                    <p class="text-success lead fw-bold text-center">&#128077; !! Link Copied Succesfully  !! &#x1F600;</p>
+                </div>
+                <div class="modal-footer mx-auto border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--    BLOG CARDS-->
 
     <section class="p-2 pt-4 pb-4 bg-black">
@@ -112,7 +127,9 @@
                             </div>
 
                             <div style="flex: 1" class="text-black text-end">
-                                <i class="h3 bi bi-share-fill" onclick="copyLink5()"></i>
+                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
+                                    <i class="h3 bi bi-share-fill" onclick="copyLink5()"></i>
+                                </button>
                             </div>
                         </div>
 
@@ -142,7 +159,9 @@
                             </div>
 
                             <div style="flex: 1" class="text-black text-end">
-                                <i class="h3 bi bi-share-fill" onclick="copyLink4()"></i>
+                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
+                                    <i class="h3 bi bi-share-fill" onclick="copyLink4()"></i>
+                                </button>
                             </div>
                         </div>
 
@@ -173,7 +192,9 @@
                             </div>
 
                             <div style="flex: 1" class="text-black text-end">
-                                <i class="h3 bi bi-share-fill" onclick="copyLink3()"></i>
+                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
+                                    <i class="h3 bi bi-share-fill" onclick="copyLink3()"></i>
+                                </button>
                             </div>
                         </div>
 
@@ -204,7 +225,9 @@
                             </div>
 
                             <div style="flex: 1" class="text-black text-end">
-                                <i class="h3 bi bi-share-fill" onclick="copyLink2()"></i>
+                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
+                                    <i class="h3 bi bi-share-fill" onclick="copyLink2()"></i>
+                                </button>
                             </div>
                         </div>
 
@@ -235,7 +258,9 @@
                             </div>
 
                             <div style="flex: 1" class="text-black text-end">
-                                <i class="h3 bi bi-share-fill" onclick="copyLink1()"></i>
+                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
+                                    <i class="h3 bi bi-share-fill" onclick="copyLink1()"></i>
+                                </button>
                             </div>
                         </div>
 
@@ -301,4 +326,6 @@
 
     <script src="js/script.js"></script>
 
-</body></html>
+</body>
+
+</html>
