@@ -2,327 +2,341 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-    <!--   BOOTSTRAP ICONS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<!--   BOOTSTRAP ICONS-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-    <!--    FONT AWESOME ICONS-->
-    <script src="https://kit.fontawesome.com/ef427c7352.js" crossorigin="anonymous"></script>
+	<!--    FONT AWESOME ICONS-->
+	<script src="https://kit.fontawesome.com/ef427c7352.js" crossorigin="anonymous"></script>
 
 
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 
-    <title>The Infinity Writings</title>
+	<title>The Infinity Writings</title>
 </head>
 
 <body>
 
-    <!--   NAVBAR -->
+	<!--   NAVBAR -->
 
-    <nav id="navbar" class="navbar navbar-expand navbar-dark bg-dark">
-        <div class="container row-md">
-            <a href="#" class="navbar-brand d-none d-lg-block col-md fs-3">The Infinity Writings</a>
+	<nav id="navbar" class="navbar navbar-expand navbar-dark bg-dark">
+		<div class="container row-md">
+			<a href="#" class="navbar-brand d-none d-lg-block col-md fs-3">The Infinity Writings</a>
 
-            <div class="container col-md">
-                <ul class="navbar-nav row text-center  fs-4">
-                    <li class="nav-item col">
-                        <a href="index.html" class="nav-link active text-decoration-underline">Blogs</a>
-                    </li>
-                    <li class="nav-item col">
-                        <a href="about.html" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item  d-none d-md-block col-md">
-                        <a href="projects.html" class="nav-link">Projects</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!--    NEWSLETTER BOX-->
-
-    <section class="bg-black text-light pt-5 p-3 text-center text-md-start">
-        <div class="container">
-            <div class="row g-4 bg-dark rounded">
-                <div class="col-md-8 col-lg-6 mx-auto">
-                    <h2>Want these <span class="text-warning">content snippets</span> sent straight <span class="text-warning">into your inbox</span>&nbsp;?</h2>
-                </div>
-                <div class="col-md-4 text-center mb-2 m-md-auto m-auto">
-                    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#subscriptionModal">
-                        Join Our Mailing List
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--    SUBSCRIPTION MODAL-->
-
-    <div class="modal fade" id="subscriptionModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content bg-dark text-light text-center">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Subscribe to The Infinity Writngs</h5>
-                </div>
-                <div class="modal-body">
-                    <iframe src="https://0e7l0cv0oil.typeform.com/to/D7IBSl4c" width="100%" height="100%" frameborder="2px"></iframe>
-                </div>
-                <div class="modal-footer mx-auto border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onClick="window.location.reload();">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--    LINK COPIED SUCCESFULLY-->
-
-    <div class="modal fade" id="linkCopiedModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content bg-dark text-light">
-                <div class="modal-body">
-                    <p class="text-success lead fw-bold text-center">&#128077; !! Link Copied Succesfully !! &#x1F600;</p>
-                </div>
-                <div class="modal-footer mx-auto border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--    BLOG CARDS-->
-
-    <section class="p-2 pt-4 pb-4 bg-black">
-        <div class="container">
-            <div class="row text-center g-4">
+			<div class="container col-md">
+				<ul class="navbar-nav row text-center  fs-4">
+					<li class="nav-item col">
+						<a href="index.html" class="nav-link active text-decoration-underline">Blogs</a>
+					</li>
+					<li class="nav-item col">
+						<a href="about.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item  d-none d-md-block col-md">
+						<a href="projects.html" class="nav-link">Projects</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
 
-                <!--               CARD 5-->
+	<!--    NEWSLETTER BOX-->
 
-                <div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
-                    <div class="card rounded-3 border-0">
-                        <h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">Rural Ain't That Backward</h2>
-                        <img src="img/blog-5-img.jpg" alt="BG Image" class="card-img img-fluid rounded-0">
-                        <div class="card-body text-start">
-                            <p class="card-text lead fw-normal text-black">Thanks to the regular power cuts here, they make sure that you live in darkness. But even if there is electricity, there is never a lack of interactions between the people here.
+	<section class="bg-black text-light pt-5 p-3 text-center text-md-start">
+		<div class="container">
+			<div class="row g-4 bg-dark rounded">
+				<div class="col-md-8 col-lg-6 mx-auto">
+					<h2>Want these <span class="text-warning">content snippets</span> sent straight <span class="text-warning">into your inbox</span>&nbsp;?</h2>
+				</div>
+				<div class="col-md-4 text-center mb-2 m-md-auto m-auto">
+					<button type="button" class="btn btn-primary btn-lg mb-2 mb-md-0" data-bs-toggle="modal" data-bs-target="#subscriptionModal">
+						Join Our Mailing List
+					</button>
+				</div>
+			</div>
 
-                                <a href="blogs/rural-aint-that-backward.html" class="card-link text-dark">continue&nbsp;reading</a>
+		</div>
+	</section>
 
-                            </p>
-                        </div>
+	<!--    SUBSCRIPTION MODAL-->
 
-                        <div class="card-footer" style="display: flex">
-                            <div class="text-start text-dark">
-                                <i class="h3 bi bi-calendar4"></i>
-                                <span class="h6 align-middle">&nbsp;Jun 10, 2021</span>
-                                <i class="h3 bi bi-dot align-middle"></i>
-                                <span class="h6 align-middle">3 min read</span>
-                            </div>
+	<div class="modal fade" id="subscriptionModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen">
+			<div class="modal-content bg-dark text-light text-center">
+				<div class="modal-header">
+					<h5 class="modal-title" id="staticBackdropLabel">Subscribe to The Infinity Writngs</h5>
+				</div>
+				<div class="modal-body">
+					<iframe src="https://0e7l0cv0oil.typeform.com/to/D7IBSl4c" width="100%" height="100%" frameborder="2px"></iframe>
+				</div>
+				<div class="modal-footer mx-auto border-0">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onClick="window.location.reload();">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
-                            <div style="flex: 1" class="text-black text-end">
-                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
-                                    <i class="h3 bi bi-share" onclick="copyLink5()"></i>
-                                </button>
-                            </div>
-                        </div>
+	<!--    LINK COPIED SUCCESFULLY-->
 
-                    </div>
-                </div>
+	<div class="modal fade" id="linkCopiedModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content bg-dark text-light">
+				<div class="modal-body">
+					<p class="text-success lead fw-bold text-center">&#128077; !! Link Copied Succesfully !! &#x1F600;</p>
+				</div>
+				<div class="modal-footer mx-auto border-0">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
-                <!--                CARD 4-->
+	<!--    BLOG CARDS-->
 
-                <div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
-                    <div class="card rounded-3 border-0">
-                        <h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">Why You Should Watch YouTube Videos In Full Screen</h2>
-                        <img src="img/blog-4-img.jpg" alt="BG Image" class="card-img img-fluid rounded-0">
-                        <div class="card-body text-start">
-                            <p class="card-text lead fw-normal text-black">These types of distractions mess with our neural links that are associated with the ability to focus and may end up decreasing our concentration by a large rate
-
-                                <a href="blogs/why-you-should-watch-yt-videos-in-full-screen.html" class="card-link text-dark">continue&nbsp;reading</a>
-
-                            </p>
-                        </div>
-
-                        <div class="card-footer" style="display: flex">
-                            <div class="text-start text-dark">
-                                <i class="h3 bi bi-calendar4"></i>
-                                <span class="h6 align-middle">&nbsp;May 28, 2021</span>
-                                <i class="h3 bi bi-dot align-middle"></i>
-                                <span class="h6 align-middle">2 min read</span>
-                            </div>
-
-                            <div style="flex: 1" class="text-black text-end">
-                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
-                                    <i class="h3 bi bi-share" onclick="copyLink4()"></i>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+	<section class="p-2 pt-4 pb-4 bg-black">
+		<div class="container">
+			<div class="row text-center g-4">
 
 
-                <!--               CARD 3 -->
+				<!--               CARD 5-->
 
-                <div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
-                    <div class="card rounded-3 border-0">
-                        <h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">To-Do Lists: The Paradoxical Productivity Tool</h2>
-                        <img src="img/blog-3-img.jpg" alt="BG Image" class="card-img img-fluid rounded-0">
-                        <div class="card-body text-start">
-                            <p class="card-text lead fw-normal text-black">To-do lists, the new trend in productivity field, are one of the best and my favorite productivity tools. This is how to make the most out of them.
+				<div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
+					<div class="card rounded-3 border-0">
+						<h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">Rural Ain't That Backward</h2>
+						<img src="img/blog-5-img.jpg" alt="BG Image" class="card-img img-fluid rounded-0">
+						<div class="card-body text-start">
+							<p class="card-text lead fw-normal text-black">Thanks to the regular power cuts here, they make sure that you live in darkness. But even if there is electricity, there is never a lack of interactions between the people here.
 
-                                <a href="blogs/to-do-lists-paradoxical-productivity-tool.html" class="card-link text-dark">continue&nbsp;reading</a>
+								<a href="blogs/rural-aint-that-backward.html" class="card-link text-dark">continue&nbsp;reading</a>
 
-                            </p>
-                        </div>
+							</p>
+						</div>
 
-                        <div class="card-footer" style="display: flex">
-                            <div class="text-start text-dark">
-                                <i class="h3 bi bi-calendar4"></i>
-                                <span class="h6 align-middle">&nbsp;Jun 10, 2021</span>
-                                <i class="h3 bi bi-dot align-middle"></i>
-                                <span class="h6 align-middle">6 min read</span>
-                            </div>
+						<div class="card-footer" style="display: flex">
+							<div class="text-start text-dark">
+								<i class="h3 bi bi-calendar4"></i>
+								<span class="h6 align-middle">&nbsp;Jun 10, 2021</span>
+								<i class="h3 bi bi-dot align-middle"></i>
+								<span class="h6 align-middle">3 min read</span>
+							</div>
 
-                            <div style="flex: 1" class="text-black text-end">
-                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
-                                    <i class="h3 bi bi-share" onclick="copyLink3()"></i>
-                                </button>
-                            </div>
-                        </div>
+							<div style="flex: 1" class="text-black text-end">
+								<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
+									<i class="h3 bi bi-share" onclick="copyLink5()"></i>
+								</button>
+							</div>
+						</div>
 
-                    </div>
-                </div>
+					</div>
+				</div>
 
+				<!--                CARD 4-->
 
-                <!--                CARD 2-->
+				<div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
+					<div class="card rounded-3 border-0">
+						<h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">Why You Should Watch YouTube Videos In Full Screen</h2>
+						<img src="img/blog-4-img.jpg" alt="BG Image" class="card-img img-fluid rounded-0">
+						<div class="card-body text-start">
+							<p class="card-text lead fw-normal text-black">These types of distractions mess with our neural links that are associated with the ability to focus and may end up decreasing our concentration by a large rate
 
-                <div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
-                    <div class="card rounded-3 border-0">
-                        <h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">6 Things You Must Learn By 20</h2>
-                        <img src="img/blog-2-img.jpg" alt="BG Image" class="card-img img-fluid rounded-0">
-                        <div class="card-body text-start">
-                            <p class="card-text lead fw-normal text-black">And maybe this is the time to stop waiting for certainity and take a leap of faith, the time to follow your intuition and not the ratio.
+								<a href="blogs/why-you-should-watch-yt-videos-in-full-screen.html" class="card-link text-dark">continue&nbsp;reading</a>
 
-                                <a href="blogs/6-things-to-learn-by-20.html" class="card-link text-dark">continue&nbsp;reading</a>
+							</p>
+						</div>
 
-                            </p>
-                        </div>
+						<div class="card-footer" style="display: flex">
+							<div class="text-start text-dark">
+								<i class="h3 bi bi-calendar4"></i>
+								<span class="h6 align-middle">&nbsp;May 28, 2021</span>
+								<i class="h3 bi bi-dot align-middle"></i>
+								<span class="h6 align-middle">2 min read</span>
+							</div>
 
-                        <div class="card-footer" style="display: flex">
-                            <div class="text-start text-dark">
-                                <i class="h3 bi bi-calendar4"></i>
-                                <span class="h6 align-middle">&nbsp;Nov 14, 2020</span>
-                                <i class="h3 bi bi-dot align-middle"></i>
-                                <span class="h6 align-middle">3 min read</span>
-                            </div>
+							<div style="flex: 1" class="text-black text-end">
+								<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
+									<i class="h3 bi bi-share" onclick="copyLink4()"></i>
+								</button>
+							</div>
+						</div>
 
-                            <div style="flex: 1" class="text-black text-end">
-                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
-                                    <i class="h3 bi bi-share" onclick="copyLink2()"></i>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <!--               CARD 1 -->
-
-                <div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
-                    <div class="card rounded-3 border-0">
-                        <h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">The 5 Best Podcasts Of 2020</h2>
-                        <img src="img/blog-1-img.jpg" alt="BG Image" class="card-img img-fluid rounded-0">
-                        <div class="card-body text-start">
-                            <p class="card-text lead fw-normal text-black">Whether you are someone who is always on the go or the one ready to listen to hour long sessions, there is always a podcast for you. This is a brief list of my favorite ones, maybe yours too.
-
-                                <a href="blogs/5-best-podcasts-2020.html" class="card-link text-dark">continue&nbsp;reading</a>
-
-                            </p>
-                        </div>
-
-                        <div class="card-footer" style="display: flex">
-                            <div class="text-start text-dark" style="flex: ">
-                                <i class="h3 bi bi-calendar4"></i>
-                                <span class="h6 align-middle">&nbsp;Sep 14, 2020</span>
-                                <i class="h3 bi bi-dot align-middle"></i>
-                                <span class="h6 align-middle">2 min read</span>
-                            </div>
-
-                            <div style="flex: 1" class="text-black text-end">
-                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
-                                    <i class="h3 bi bi-share" onclick="copyLink1()"></i>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+					</div>
+				</div>
 
 
-            </div>
-        </div>
-    </section>
+				<!--	PROJECTS BUTTON BOX-->
+
+				<section class="bg-black text-light mt-4 text-center d-md-none">
+							<div class="g-4 bg-dark rounded py-2">
+								<h2 class="mx-2">More of a <span class="text-warning">Tech Geek?</span> look at these project sites</h2>
+								<a type="button" class="m-2 btn btn-primary btn-lg" href="projects.html">
+									Go To Projects
+								</a>
+							</div>
+				</section>
 
 
-    <!--    FOOTER-->
+				<!--               CARD 3 -->
 
-    <section class="p-2 bg-dark">
-        <div class="row">
-            <div class="col-md-6 p-0 social-handles border-end">
+				<div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
+					<div class="card rounded-3 border-0">
+						<h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">To-Do Lists: The Paradoxical Productivity Tool</h2>
+						<img src="img/blog-3-img.jpg" alt="BG Image" class="card-img img-fluid rounded-0">
+						<div class="card-body text-start">
+							<p class="card-text lead fw-normal text-black">To-do lists, the new trend in productivity field, are one of the best and my favorite productivity tools. This is how to make the most out of them.
 
-                <ul id="social-handles-list">
-                    <li class="social-list-items">
-                        <a href="https://instagram.com/shivp436" target="_blank" class="social-handle-links">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
+								<a href="blogs/to-do-lists-paradoxical-productivity-tool.html" class="card-link text-dark">continue&nbsp;reading</a>
 
-                    <li class="social-list-items">
-                        <a href="https://twitter.com/shivp436" target="_blank" class="social-handle-links">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
+							</p>
+						</div>
 
-                    <li class="social-list-items">
-                        <a href="http://shivanandp.medium.com/" target="_blank" class="social-handle-links">
-                            <i class="fab fa-medium"></i>
-                        </a>
-                    </li>
+						<div class="card-footer" style="display: flex">
+							<div class="text-start text-dark">
+								<i class="h3 bi bi-calendar4"></i>
+								<span class="h6 align-middle">&nbsp;Jun 10, 2021</span>
+								<i class="h3 bi bi-dot align-middle"></i>
+								<span class="h6 align-middle">6 min read</span>
+							</div>
 
-                    <li class="social-list-items">
-                        <a href="https://linkedin.com/in/shivanandp" target="_blank" class="social-handle-links">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </li>
+							<div style="flex: 1" class="text-black text-end">
+								<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
+									<i class="h3 bi bi-share" onclick="copyLink3()"></i>
+								</button>
+							</div>
+						</div>
 
-                    <li class="social-list-items">
-                        <a href="https://github.com/shivp436" target="_blank" class="social-handle-links">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </li>
-                </ul>
+					</div>
+				</div>
 
-            </div>
 
-            <div class="col-md-6 text-center text-light my-md-auto fw-normal ">
+				<!--                CARD 2-->
+
+				<div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
+					<div class="card rounded-3 border-0">
+						<h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">6 Things You Must Learn By 20</h2>
+						<img src="img/blog-2-img.jpg" alt="BG Image" class="card-img img-fluid rounded-0">
+						<div class="card-body text-start">
+							<p class="card-text lead fw-normal text-black">And maybe this is the time to stop waiting for certainity and take a leap of faith, the time to follow your intuition and not the ratio.
+
+								<a href="blogs/6-things-to-learn-by-20.html" class="card-link text-dark">continue&nbsp;reading</a>
+
+							</p>
+						</div>
+
+						<div class="card-footer" style="display: flex">
+							<div class="text-start text-dark">
+								<i class="h3 bi bi-calendar4"></i>
+								<span class="h6 align-middle">&nbsp;Nov 14, 2020</span>
+								<i class="h3 bi bi-dot align-middle"></i>
+								<span class="h6 align-middle">3 min read</span>
+							</div>
+
+							<div style="flex: 1" class="text-black text-end">
+								<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
+									<i class="h3 bi bi-share" onclick="copyLink2()"></i>
+								</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+				<!--               CARD 1 -->
+
+				<div class="col-xs col-md-6 col-xl-4 mx-auto d-flex align-items-stretch">
+					<div class="card rounded-3 border-0">
+						<h2 class="card-title text-start mb-2 ms-3 mt-3 me-2 fw-bold">The 5 Best Podcasts Of 2020</h2>
+						<img src="img/blog-1-img.jpg" alt="BG Image" class="card-img img-fluid rounded-0">
+						<div class="card-body text-start">
+							<p class="card-text lead fw-normal text-black">Whether you are someone who is always on the go or the one ready to listen to hour long sessions, there is always a podcast for you. This is a brief list of my favorite ones, maybe yours too.
+
+								<a href="blogs/5-best-podcasts-2020.html" class="card-link text-dark">continue&nbsp;reading</a>
+
+							</p>
+						</div>
+
+						<div class="card-footer" style="display: flex">
+							<div class="text-start text-dark" style="flex: ">
+								<i class="h3 bi bi-calendar4"></i>
+								<span class="h6 align-middle">&nbsp;Sep 14, 2020</span>
+								<i class="h3 bi bi-dot align-middle"></i>
+								<span class="h6 align-middle">2 min read</span>
+							</div>
+
+							<div style="flex: 1" class="text-black text-end">
+								<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#linkCopiedModal">
+									<i class="h3 bi bi-share" onclick="copyLink1()"></i>
+								</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+
+	<!--    FOOTER SECTION-->
+
+	<section class="p-2 bg-dark">
+		<div class="row">
+			<div class="col-md-6 p-0 social-handles border-end">
+
+				<ul id="social-handles-list">
+					<li class="social-list-items">
+						<a href="https://instagram.com/shivp436" target="_blank" class="social-handle-links">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+
+					<li class="social-list-items">
+						<a href="https://twitter.com/shivp436" target="_blank" class="social-handle-links">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+
+					<li class="social-list-items">
+						<a href="http://shivanandp.medium.com/" target="_blank" class="social-handle-links">
+							<i class="fab fa-medium"></i>
+						</a>
+					</li>
+
+					<li class="social-list-items">
+						<a href="https://linkedin.com/in/shivanandp" target="_blank" class="social-handle-links">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</li>
+
+					<li class="social-list-items">
+						<a href="https://github.com/shivp436" target="_blank" class="social-handle-links">
+							<i class="fab fa-github"></i>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+
+			<div class="col-md-6 text-center text-light my-md-auto fw-normal ">
 
 				<span>&copy; Shivanand P 2021</span>
 
 			</div>
 
-        </div>
+		</div>
 
-    </section>
+	</section>
 
 
-    <script src="js/script.js"></script>
+	<script src="js/script.js"></script>
 
 </body></html>

@@ -1,5 +1,15 @@
 @media(min-width: 768px) {
-    .input-button {
-        width: 50%;
-    }
+	.input-button {
+		width: 50%;
+	}
+}
+
+.projects-btn {
+	text-align: center;
+	border-radius: 80% 80% 80% 80%;
+	position: fixed;
+	bottom: 20vh;
+	right: 20px;
+	border: 2px solid;
+	z-index: 2;
 }
