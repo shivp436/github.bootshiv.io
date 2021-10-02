@@ -1,0 +1,13 @@
+#navbar {
+/*	position: static;*/
+}
+
+.writer-box {
+	background: rgb(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 30%);
+}
+
+.writer-img{
+	border: 2px solid green;
+}
