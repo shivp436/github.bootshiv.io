@@ -1,5 +1,5 @@
 #navbar {
-/*	position: static;*/
+	position: static;
 }
 
 .writer-box {
@@ -10,4 +10,20 @@
 
 .writer-img{
 	border: 2px solid green;
+}
+
+.side-toggle {
+	position: sticky;
+	top: 1px;
+}
+
+.big-house{
+	position: relative;
+	right: 4px;
+}
+
+.small-house {
+	position: relative;
+	right: 4px;
+/*	border: 1px solid white;*/
 }
